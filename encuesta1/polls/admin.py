@@ -20,6 +20,3 @@ class PollAdmin(admin.ModelAdmin):
     date_hierarchy = 'pub_date'
 
 admin.site.register(Poll, PollAdmin)
-
-
-
